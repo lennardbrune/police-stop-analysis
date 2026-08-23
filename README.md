@@ -1,6 +1,6 @@
 # Police Stop Analysis
 
-**Status: 🚧 Work in Progress — unfertig.**
+**Status: 🚧 Work in Progress (unfertig).**
 
 Explorative Analyse eines US-amerikanischen Polizeikontrollen-Datensatzes mit pandas
 und scipy. Ziel ist, Zusammenhänge zwischen Fahrer-Merkmalen (Geschlecht, Alter,
