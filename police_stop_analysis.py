@@ -65,7 +65,7 @@ df["is_arrested"] = df["is_arrested"].astype("bool")  # bool statt int64
 df["stop_date"] = pd.to_datetime(df["stop_date"])  # datetime statt object
 df["stop_time"] = pd.to_datetime(df["stop_time"], format="%H:%M").dt.time  # datetime statt object
 
-# Zwolf eindeutige Duplikate Raus mit dem Index (83361–83372)
+# Zwolf eindeutige Duplikate Raus mit dem Index (83361 bis 83372)
 df = df.drop(index=range(83361, 83373))
 
 df = df.drop_duplicates()  # alle weiteren Duplikate raus
@@ -166,7 +166,7 @@ for verstoß in df['violation'].unique():
 
 # 1. Vorgenommene Datenbereinigung und -Aufbereitung
 # Zwei auffällige stop_duration-Werte ('1', '2') wurden in Schritt 2 entfernt, da sie nicht zu den erwarteten Kategorien gehören.
-# Zwolf auffällige Duplikate (Index 83361–83372) wurden in Schritt 2 entfernt, da es sich um exakt identische Personen handelte.
+# Zwolf auffällige Duplikate (Index 83361 bis 83372) wurden in Schritt 2 entfernt, da es sich um exakt identische Personen handelte.
 # stop_date und stop_time wurden in Schritt 2 in das Datetime-Format konvertiert, um eine bessere Analyse zu ermöglichen.
 # is_arrested wurde in Schritt 2 in den booleschen Datentyp konvertiert, um die Analyse zu erleichtern.
 

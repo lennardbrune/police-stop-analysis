@@ -6,8 +6,8 @@
 ## Projektüberblick
 
 Explorative pandas/scipy-Analyse eines US-Polizeikontrollen-Datensatzes (Kaggle,
-siehe README.md). Ein einzelnes Analyseskript, kein größeres Softwareprojekt —
-Subagenten/Skills-Infrastruktur ist hier bewusst weggelassen.
+siehe README.md). Ein einzelnes Analyseskript, kein größeres Softwareprojekt, deshalb
+ist Subagenten/Skills-Infrastruktur hier bewusst weggelassen.
 
 ## Technischer Stack
 
@@ -21,12 +21,12 @@ Python 3, eigenes `.venv` im Projektordner (nicht committen, siehe `.gitignore`)
 
 ## Arbeitsregeln
 
-- `police_stop_analysis.py` ist in nummerierte Schritte gegliedert (Schritt 1–7:
+- `police_stop_analysis.py` ist in nummerierte Schritte gegliedert (Schritt 1 bis 7:
   Profiling, Bereinigung, Datenqualitätscheck, Fragestellungen, Analyse,
   Visualisierung, Dokumentation). Neue Auswertungen in Schritt 5 ergänzen, neue
   Fragen vorher in Schritt 4 dokumentieren.
 - Wichtige methodische Einschränkung des Datensatzes (keine Baseline für
-  "Wahrscheinlichkeit eines Verstoßes") steht in der README — bei neuen
+  "Wahrscheinlichkeit eines Verstoßes") steht in der README, bei neuen
   Fragestellungen daran halten, siehe README.md.
 - Status offener/beantworteter Fragen in der README-Checkliste aktuell halten.
 
