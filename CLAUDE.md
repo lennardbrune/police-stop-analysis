@@ -14,8 +14,9 @@ ist Subagenten/Skills-Infrastruktur hier bewusst weggelassen.
 | Bibliothek | Zweck |
 |---|---|
 | pandas | Datenbereinigung und -aufbereitung |
-| scipy.stats | Chi-Quadrat-Tests auf Unabhängigkeit |
+| scipy.stats | Chi-Quadrat-, Kruskal-Wallis- und Effektstärke-Tests |
 | numpy | Hilfsfunktionen |
+| matplotlib | Visualisierung (Schritt 6, Export nach `assets/`) |
 
 Python 3, eigenes `.venv` im Projektordner (nicht committen, siehe `.gitignore`).
 
@@ -32,5 +33,5 @@ Python 3, eigenes `.venv` im Projektordner (nicht committen, siehe `.gitignore`)
 
 ## Aktueller Stand
 
-Siehe README.md ("Status der Fragestellungen"). Projekt ist **work in progress**,
-Fragen b) bis f) und die Visualisierung stehen noch aus.
+Siehe README.md ("Status der Fragestellungen"). Projekt ist **abgeschlossen**, alle
+Fragestellungen a) bis f) beantwortet, Visualisierung vorhanden.
