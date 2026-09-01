@@ -79,7 +79,7 @@ Details und Zwischenbefunde stehen als Kommentare direkt im Skript
 
 ## Was ich gelernt habe
 
-Die Testwahl hängt vom Skalenniveau ab, nicht davon, was gerade griffbereit ist —
+Die Testwahl hängt vom Skalenniveau ab, nicht davon, was gerade griffbereit ist 
 bei b) hätte eine ANOVA nahegelegen, aber ein Schiefe-Test hat gezeigt, dass die
 Normalverteilungsannahme nicht hält, Kruskal-Wallis war die richtige Wahl. Die
 größere Lektion war aber, den p-Wert nicht mit der Effektgröße zu verwechseln: bei
